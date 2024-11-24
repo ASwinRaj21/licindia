@@ -30,6 +30,7 @@ public class BaseClass implements IBaseClass {
 		driver = new EdgeDriver(option);
 		action = new Actions(driver);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	}
 
 	@Override
