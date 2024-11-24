@@ -1,1 +1,515 @@
-[{"line":1,"elements":[{"line":3,"name":"User launches and validates the application","description":"","type":"background","keyword":"Background","steps":[{"result":{"duration":4245645400,"status":"passed"},"line":4,"name":"Launch the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":32}],"location":"in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"},"keyword":"Given "},{"result":{"duration":12780200,"status":"passed"},"line":5,"name":"Validates the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":35}],"location":"in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"},"keyword":"When "}]},{"start_timestamp":"2024-11-22T08:08:34.167Z","before":[{"result":{"duration":4148809900,"status":"passed"},"match":{"location":"in.licindia.hooks.Hooks.browserLaunch()"}}],"line":7,"name":"User gets the plan details","description":"","id":"get-plans-from-insurance-plans;user-gets-the-plan-details","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":192055300,"status":"passed"},"line":8,"name":"User clicks the products","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_the_products()"},"keyword":"When "},{"result":{"duration":186310400,"status":"passed"},"line":9,"name":"Mouseover Insurance plans","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.mouseover_insurance_plans()"},"keyword":"Then "},{"result":{"duration":226583600,"status":"passed"},"line":10,"name":"Mouseover and clicks wholelife plans","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.mouseover_and_clicks_wholelife_plans()"},"keyword":"And "},{"result":{"duration":752129900,"status":"passed"},"line":11,"name":"User clicks LICs Jeevan Umang plan","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_li_cs_jeevan_umang_plan()"},"keyword":"And "},{"result":{"duration":784663700,"status":"passed"},"line":12,"name":"User selects Policy Document","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_selects_policy_document()"},"keyword":"Then "}]},{"line":3,"name":"User launches and validates the application","description":"","type":"background","keyword":"Background","steps":[{"result":{"duration":31935440600,"status":"passed"},"line":4,"name":"Launch the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":32}],"location":"in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"},"keyword":"Given "},{"result":{"duration":79148800,"status":"passed"},"line":5,"name":"Validates the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":35}],"location":"in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"},"keyword":"When "}]},{"start_timestamp":"2024-11-22T08:08:44.777Z","before":[{"result":{"duration":2923244000,"status":"passed"},"match":{"location":"in.licindia.hooks.Hooks.browserLaunch()"}}],"line":14,"name":"User get the plan details","description":"","id":"get-plans-from-insurance-plans;user-get-the-plan-details","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":174463500,"status":"passed"},"line":15,"name":"User click the products","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_click_the_products()"},"keyword":"When "},{"result":{"duration":185015000,"status":"passed"},"line":16,"name":"Mouseover to Insurance plans","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.mouseover_to_insurance_plans()"},"keyword":"Then "},{"result":{"duration":211994900,"status":"passed"},"line":17,"name":"Mouseover and click wholelife plans","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.mouseover_and_click_wholelife_plans()"},"keyword":"And "},{"result":{"duration":1219927100,"status":"passed"},"line":18,"name":"User clicks LICs Jeevan Utsav plan","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_li_cs_jeevan_utsav_plan()"},"keyword":"And "},{"result":{"duration":903116900,"status":"passed"},"line":19,"name":"User selects Sales brochures","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_selects_sales_brochures()"},"keyword":"Then "}]},{"line":3,"name":"User launches and validates the application","description":"","type":"background","keyword":"Background","steps":[{"result":{"duration":32575060400,"status":"passed"},"line":4,"name":"Launch the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":32}],"location":"in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"},"keyword":"Given "},{"result":{"duration":68100400,"status":"passed"},"line":5,"name":"Validates the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":35}],"location":"in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"},"keyword":"When "}]},{"start_timestamp":"2024-11-22T08:09:22.436Z","before":[{"result":{"duration":3439968900,"status":"passed"},"match":{"location":"in.licindia.hooks.Hooks.browserLaunch()"}}],"line":21,"name":"User downloads payment receipt","description":"","id":"get-plans-from-insurance-plans;user-downloads-payment-receipt","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":8148787900,"status":"passed"},"line":22,"name":"User clicks pay premium","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_pay_premium()"},"keyword":"When "},{"result":{"error_message":"java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)\" because \"in.licindia.baseclass.BaseClass.wait\" is null\r\n\tat in.licindia.baseclass.BaseClass.waits(BaseClass.java:60)\r\n\tat in.licindia.stepdefinitions.InsurancePlans.user_clicks_view_download_receipt(InsurancePlans.java:125)\r\n\tat ✽.User clicks view/download receipt(file:///C:/Users/aswin/eclipse-workspace/licindia/src/test/resources/plan.feature:23)\r\n","duration":18803500,"status":"failed"},"line":23,"name":"User clicks view/download receipt","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_view_download_receipt()"},"keyword":"Then "},{"result":{"duration":1037700,"status":"skipped"},"line":24,"name":"User enters Policynumber \"327232645\" Date of Transaction and Transaction type","match":{"arguments":[{"val":"\"327232645\"","offset":25}],"location":"in.licindia.stepdefinitions.InsurancePlans.user_enters_policynumber_date_of_transaction_and_transaction_type(java.lang.String)"},"keyword":"And "},{"result":{"status":"skipped"},"line":25,"name":"User clicks submit button","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_submit_button()"},"keyword":"And "}]},{"line":3,"name":"User launches and validates the application","description":"","type":"background","keyword":"Background","steps":[{"result":{"duration":29305523400,"status":"passed"},"line":4,"name":"Launch the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":32}],"location":"in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"},"keyword":"Given "},{"result":{"duration":18481600,"status":"passed"},"line":5,"name":"Validates the LicIndia application \"https://www.licindia.in/en/\"","match":{"arguments":[{"val":"\"https://www.licindia.in/en/\"","offset":35}],"location":"in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"},"keyword":"When "}]},{"start_timestamp":"2024-11-22T08:10:06.717Z","before":[{"result":{"duration":3120283400,"status":"passed"},"match":{"location":"in.licindia.hooks.Hooks.browserLaunch()"}}],"line":27,"name":"User updates contact details offline","description":"","id":"get-plans-from-insurance-plans;user-updates-contact-details-offline","type":"scenario","keyword":"Scenario","steps":[{"result":{"duration":195657400,"status":"passed"},"line":28,"name":"User clicks Customer Services","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_customer_services()"},"keyword":"When "},{"result":{"duration":213953300,"status":"passed"},"line":29,"name":"Mouseover to Update your contact details - offline","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.mouseover_to_update_your_contact_details_offline()"},"keyword":"Then "},{"result":{"duration":1340044300,"status":"passed"},"line":30,"name":"User clicks update your contact details - offline form","match":{"location":"in.licindia.stepdefinitions.InsurancePlans.user_clicks_update_your_contact_details_offline_form()"},"keyword":"And "}]}],"name":"Get plans from insurance plans","description":"","id":"get-plans-from-insurance-plans","keyword":"Feature","uri":"file:src/test/resources/plan.feature","tags":[]}]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User launches and validates the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5538498700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 32
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12348500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validates the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 35
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-24T13:01:41.264Z",
+        "before": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAB3YAAANlCAIAAAAPVI9tAAAAAXNSR0IArs4c6QAAGmpJREFUeJzs2MENwCAQwLDS/Xc+ZiAfhGRPkHfWzHwAAAAAAHDuvx0AAAAAAMCrLGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGLe7dixAAAAAMAgf+s57C6MAAAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgCkFnwnHjaL+EgAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "img/png"
+              }
+            ],
+            "result": {
+              "duration": 4987524400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.licindia.hooks.Hooks.browserLaunch(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User gets the plan details",
+        "description": "",
+        "id": "get-plans-from-insurance-plans;user-gets-the-plan-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 182615800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the products",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_the_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154043500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Mouseover Insurance plans",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.mouseover_insurance_plans()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152064500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Mouseover and clicks wholelife plans",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.mouseover_and_clicks_wholelife_plans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 823948800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks LICs Jeevan Umang plan",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_li_cs_jeevan_umang_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575899300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User selects Policy Document",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_selects_policy_document()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User launches and validates the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4394458100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 32
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77658400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validates the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 35
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-24T13:01:53.761Z",
+        "before": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAB3YAAANlCAIAAAAPVI9tAAAAAXNSR0IArs4c6QAAGmpJREFUeJzs2MENwCAQwLDS/Xc+ZiAfhGRPkHfWzHwAAAAAAHDuvx0AAAAAAMCrLGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGLe7dixAAAAAMAgf+s57C6MAAAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgCkFnwnHjaL+EgAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "img/png"
+              }
+            ],
+            "result": {
+              "duration": 3378863300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.licindia.hooks.Hooks.browserLaunch(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User get the plan details",
+        "description": "",
+        "id": "get-plans-from-insurance-plans;user-get-the-plan-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146542400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click the products",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_click_the_products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152969900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Mouseover to Insurance plans",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.mouseover_to_insurance_plans()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125672600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Mouseover and click wholelife plans",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.mouseover_and_click_wholelife_plans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 823801600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks LICs Jeevan Utsav plan",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_li_cs_jeevan_utsav_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 504733300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User selects Sales brochures",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_selects_sales_brochures()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User launches and validates the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5048615700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 32
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79707900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validates the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 35
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-24T13:02:03.373Z",
+        "before": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAB3YAAANlCAIAAAAPVI9tAAAAAXNSR0IArs4c6QAAGmpJREFUeJzs2MENwCAQwLDS/Xc+ZiAfhGRPkHfWzHwAAAAAAHDuvx0AAAAAAMCrLGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGLe7dixAAAAAMAgf+s57C6MAAAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgCkFnwnHjaL+EgAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "img/png"
+              }
+            ],
+            "result": {
+              "duration": 3171764000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.licindia.hooks.Hooks.browserLaunch(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User downloads payment receipt",
+        "description": "",
+        "id": "get-plans-from-insurance-plans;user-downloads-payment-receipt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2432839500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks pay premium",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_pay_premium()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15855500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks view/download receipt",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_view_download_receipt()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10052636100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enters Policynumber \"327232645\" Date of Transaction and Transaction type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"327232645\"",
+                  "offset": 25
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_enters_policynumber_date_of_transaction_and_transaction_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10029106900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks submit button",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_submit_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User launches and validates the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5480883200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 32
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.launch_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17420500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validates the LicIndia application \"https://www.licindia.in/en/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.licindia.in/en/\"",
+                  "offset": 35
+                }
+              ],
+              "location": "in.licindia.stepdefinitions.InsurancePlans.validates_the_lic_india_application(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-24T13:02:34.210Z",
+        "before": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAAB3YAAANlCAIAAAAPVI9tAAAAAXNSR0IArs4c6QAAGmpJREFUeJzs2MENwCAQwLDS/Xc+ZiAfhGRPkHfWzHwAAAAAAHDuvx0AAAAAAMCrLGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGIGAAAAACCymAEAAAAAiCxmAAAAAAAiixkAAAAAgMhiBgAAAAAgspgBAAAAAIgsZgAAAAAAIosZAAAAAIDIYgYAAAAAILKYAQAAAACILGYAAAAAACKLGQAAAACAyGLe7dixAAAAAMAgf+s57C6MAAAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgEkxAwAAAAAwKWYAAAAAACbFDAAAAADApJgBAAAAAJgUMwAAAAAAk2IGAAAAAGBSzAAAAAAATIoZAAAAAIBJMQMAAAAAMClmAAAAAAAmxQwAAAAAwKSYAQAAAACYFDMAAAAAAJNiBgAAAABgUswAAAAAAEyKGQAAAACASTEDAAAAADApZgAAAAAAJsUMAAAAAMCkmAEAAAAAmBQzAAAAAACTYgYAAAAAYFLMAAAAAABMihkAAAAAgCkFnwnHjaL+EgAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "img/png"
+              }
+            ],
+            "result": {
+              "duration": 2741340200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.licindia.hooks.Hooks.browserLaunch(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User updates contact details offline",
+        "description": "",
+        "id": "get-plans-from-insurance-plans;user-updates-contact-details-offline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 178165600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks Customer Services",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_customer_services()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141519900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Mouseover to Update your contact details - offline",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.mouseover_to_update_your_contact_details_offline()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 574535700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks update your contact details - offline form",
+            "match": {
+              "location": "in.licindia.stepdefinitions.InsurancePlans.user_clicks_update_your_contact_details_offline_form()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Get plans from insurance plans",
+    "description": "",
+    "id": "get-plans-from-insurance-plans",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/plan.feature",
+    "tags": []
+  }
+]

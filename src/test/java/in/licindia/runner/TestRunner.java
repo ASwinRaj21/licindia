@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "C:\\Users\\aswin\\eclipse-workspace\\licindia\\src\\test\\resources\\plan.feature",
 glue = "in.licindia",
 dryRun = false,
-monochrome = true
+monochrome = true,
+plugin = {"html:target/html","json:target/report.json"}
 )
 
 public class TestRunner {
