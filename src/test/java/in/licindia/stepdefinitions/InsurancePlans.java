@@ -228,6 +228,7 @@ public class InsurancePlans extends BaseClass {
 	@Then("Mouseover to Update your contact details - offline")
 	public void mouseover_to_update_your_contact_details_offline() {
 		try {
+	    base.waits(locators.getUpdate());
 	    base.button(locators.getUpdate());}
 		catch(Exception e) {
 			e.printStackTrace();
